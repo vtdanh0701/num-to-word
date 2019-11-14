@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -19,4 +20,20 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  min-height: 50%;
+  border: 1px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.container > input{
+  text-align: center;
 }
